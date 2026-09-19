@@ -1,0 +1,160 @@
+{
+  "version": "2026-09-16",
+  "note": "Public pages only, each with the text (marker) that proves the real page arrived: a case-sensitive substring of the page's HTML that its bot-check and refusal pages do not contain. Most are the production sites of the independent 2026 anti-detect browser benchmark (github.com/ianlpaterson/anti-detect-browser-bench), without its bot-detection test panels. Left out of that list: sedarplus.ca (no one, the Internet Archive included, gets its page, so no marker could be read), x.com/explore (its content is not in the page's HTML) and the Instagram post (deleted). Its Amazon product page no longer exists, so an Amazon device page stands in. The last four are large public sites we added from our list of DataDome sites; on the day of the run two of them showed a different vendor. 'protection' is what the site's responses showed on the day of the run.",
+  "pages": [
+    {
+      "id": "nowsecure",
+      "site": "nowsecure.nl",
+      "url": "https://nowsecure.nl/",
+      "marker": "NOWSECURE",
+      "protection": "Cloudflare"
+    },
+    {
+      "id": "crunchbase",
+      "site": "crunchbase.com",
+      "url": "https://www.crunchbase.com/",
+      "marker": "Crunchbase Pro",
+      "protection": "Cloudflare"
+    },
+    {
+      "id": "canadianinsider",
+      "site": "canadianinsider.com",
+      "url": "https://www.canadianinsider.com/",
+      "marker": "Insider Filings",
+      "protection": "Cloudflare"
+    },
+    {
+      "id": "ceo-ca",
+      "site": "ceo.ca",
+      "url": "https://ceo.ca/scan",
+      "marker": "Liberty Defense",
+      "protection": null
+    },
+    {
+      "id": "stockwatch",
+      "site": "stockwatch.com",
+      "url": "https://www.stockwatch.com/News/Search?hours=24&region=C",
+      "marker": "Quick Quotes",
+      "protection": null
+    },
+    {
+      "id": "newsfilecorp",
+      "site": "newsfilecorp.com",
+      "url": "https://www.newsfilecorp.com/search?q=gold",
+      "marker": "Search News Releases",
+      "protection": null
+    },
+    {
+      "id": "medium",
+      "site": "medium.com",
+      "url": "https://medium.com/",
+      "marker": "Read and write stories",
+      "protection": "Cloudflare"
+    },
+    {
+      "id": "devto",
+      "site": "dev.to",
+      "url": "https://dev.to/",
+      "marker": "amazing developers",
+      "protection": null
+    },
+    {
+      "id": "reddit",
+      "site": "reddit.com",
+      "url": "https://www.reddit.com/",
+      "marker": "The heart of the internet",
+      "protection": "own"
+    },
+    {
+      "id": "github-explore",
+      "site": "github.com",
+      "url": "https://github.com/explore",
+      "marker": "Explore GitHub",
+      "protection": null
+    },
+    {
+      "id": "linkedin-jobs",
+      "site": "linkedin.com",
+      "url": "https://www.linkedin.com/jobs/search?keywords=engineer",
+      "marker": "Engineer jobs in United States",
+      "protection": "Cloudflare"
+    },
+    {
+      "id": "amazon-product",
+      "site": "amazon.com",
+      "url": "https://www.amazon.com/dp/B09B8V1LZ3",
+      "marker": "Echo Dot",
+      "protection": "own"
+    },
+    {
+      "id": "google-search",
+      "site": "google.com",
+      "url": "https://www.google.com/search?q=anti-detect+browser",
+      "marker": "anti-detect browser",
+      "protection": "own"
+    },
+    {
+      "id": "tiktok-user",
+      "site": "tiktok.com",
+      "url": "https://www.tiktok.com/@tiktok",
+      "marker": "Followers",
+      "protection": null
+    },
+    {
+      "id": "booking-search",
+      "site": "booking.com",
+      "url": "https://www.booking.com/searchresults.html?ss=Victoria%2C+BC",
+      "marker": "Book your hotel now",
+      "protection": "AWS WAF"
+    },
+    {
+      "id": "indeed-jobs",
+      "site": "indeed.com",
+      "url": "https://www.indeed.com/jobs?q=engineer",
+      "marker": "Engineer Jobs",
+      "protection": "Cloudflare"
+    },
+    {
+      "id": "stackoverflow",
+      "site": "stackoverflow.com",
+      "url": "https://stackoverflow.com/questions/tagged/python",
+      "marker": "Questions - Stack Overflow",
+      "protection": "Cloudflare"
+    },
+    {
+      "id": "glassdoor",
+      "site": "glassdoor.com",
+      "url": "https://www.glassdoor.com/Reviews/index.htm",
+      "marker": "Find a workplace",
+      "protection": "Cloudflare"
+    },
+    {
+      "id": "vinted",
+      "site": "vinted.com",
+      "url": "https://www.vinted.com/",
+      "marker": "Sell and buy clothes",
+      "protection": "Cloudflare"
+    },
+    {
+      "id": "deezer",
+      "site": "deezer.com",
+      "url": "https://www.deezer.com/en/",
+      "marker": "Music streaming by Deezer",
+      "protection": "Akamai"
+    },
+    {
+      "id": "leboncoin",
+      "site": "leboncoin.fr",
+      "url": "https://www.leboncoin.fr/",
+      "marker": "petites annonces",
+      "protection": "DataDome"
+    },
+    {
+      "id": "hermes",
+      "site": "hermes.com",
+      "url": "https://www.hermes.com/us/en/",
+      "marker": "official Hermes online store",
+      "protection": "DataDome"
+    }
+  ]
+}

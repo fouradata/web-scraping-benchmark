@@ -1,0 +1,4 @@
+results/
+run.pid
+*.pid
+node_modules/

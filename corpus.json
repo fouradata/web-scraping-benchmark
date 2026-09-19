@@ -1,0 +1,162 @@
+{
+  "version": "2026-09-17",
+  "note": "Public pages only, each with the marker that proves the real page arrived: a case-sensitive substring of the page's HTML that its bot-check and refusal pages do not contain. Since 2026-09-17 a marker is a piece of markup (an id, a class, an attribute), so it holds whatever language the site answers in; the two exceptions say why in 'markerNote'. The run of 2026-09-16 used the text markers kept in corpus-2026-09-16.json. Most are the production sites of the independent 2026 anti-detect browser benchmark (github.com/ianlpaterson/anti-detect-browser-bench), without its bot-detection test panels. Left out of that list: sedarplus.ca (no one, the Internet Archive included, gets its page, so no marker could be read), x.com/explore (its content is not in the page's HTML) and the Instagram post (deleted). Its Amazon product page no longer exists, so an Amazon device page stands in. The last four are large public sites we added from our list of DataDome sites; on the day of the run two of them showed a different vendor. 'protection' is what the site's responses showed on the day of the run.",
+  "pages": [
+    {
+      "id": "nowsecure",
+      "site": "nowsecure.nl",
+      "url": "https://nowsecure.nl/",
+      "marker": "class=\"content__title\"",
+      "protection": "Cloudflare"
+    },
+    {
+      "id": "crunchbase",
+      "site": "crunchbase.com",
+      "url": "https://www.crunchbase.com/",
+      "marker": "id=\"closing-sales-form\"",
+      "protection": "Cloudflare"
+    },
+    {
+      "id": "canadianinsider",
+      "site": "canadianinsider.com",
+      "url": "https://www.canadianinsider.com/",
+      "marker": "id=\"tickersearchdiv\"",
+      "protection": "Cloudflare"
+    },
+    {
+      "id": "ceo-ca",
+      "site": "ceo.ca",
+      "url": "https://ceo.ca/scan",
+      "marker": "id=\"chat_container\"",
+      "protection": null
+    },
+    {
+      "id": "stockwatch",
+      "site": "stockwatch.com",
+      "url": "https://www.stockwatch.com/News/Search?hours=24&region=C",
+      "marker": "id=\"MainContent_NewsList_gNews\"",
+      "protection": null
+    },
+    {
+      "id": "newsfilecorp",
+      "site": "newsfilecorp.com",
+      "url": "https://www.newsfilecorp.com/search?q=gold",
+      "marker": "id=\"nf-search-input\"",
+      "protection": null
+    },
+    {
+      "id": "medium",
+      "site": "medium.com",
+      "url": "https://medium.com/",
+      "marker": "property=\"og:site_name\" content=\"Medium\"",
+      "protection": "Cloudflare"
+    },
+    {
+      "id": "devto",
+      "site": "dev.to",
+      "url": "https://dev.to/",
+      "marker": "id=\"article-index-hidden-div\"",
+      "protection": null
+    },
+    {
+      "id": "reddit",
+      "site": "reddit.com",
+      "url": "https://www.reddit.com/",
+      "marker": "The heart of the internet",
+      "protection": "own",
+      "markerNote": "Text, not markup: no endpoint of ours or of the 2026 benchmark we started from has fetched this page, so no part of its HTML can be checked. The tagline is the page's own."
+    },
+    {
+      "id": "github-explore",
+      "site": "github.com",
+      "url": "https://github.com/explore",
+      "marker": "id=\"code-tab-",
+      "protection": null
+    },
+    {
+      "id": "linkedin-jobs",
+      "site": "linkedin.com",
+      "url": "https://www.linkedin.com/jobs/search?keywords=engineer",
+      "marker": "id=\"job-search-bar-keywords\"",
+      "protection": "Cloudflare"
+    },
+    {
+      "id": "amazon-product",
+      "site": "amazon.com",
+      "url": "https://www.amazon.com/dp/B09B8V1LZ3",
+      "marker": "id=\"productTitle\"",
+      "protection": "own"
+    },
+    {
+      "id": "google-search",
+      "site": "google.com",
+      "url": "https://www.google.com/search?q=anti-detect+browser",
+      "marker": "anti-detect browser",
+      "protection": "own",
+      "markerNote": "The query itself: a results page repeats it in any language, and Google's JavaScript check carries it only URL-encoded (anti-detect+browser)."
+    },
+    {
+      "id": "tiktok-user",
+      "site": "tiktok.com",
+      "url": "https://www.tiktok.com/@tiktok",
+      "marker": "id=\"__UNIVERSAL_DATA_FOR_REHYDRATION__\"",
+      "protection": null
+    },
+    {
+      "id": "booking-search",
+      "site": "booking.com",
+      "url": "https://www.booking.com/searchresults.html?ss=Victoria%2C+BC",
+      "marker": "data-testid=\"property-card\"",
+      "protection": "AWS WAF"
+    },
+    {
+      "id": "indeed-jobs",
+      "site": "indeed.com",
+      "url": "https://www.indeed.com/jobs?q=engineer",
+      "marker": "id=\"mosaic-provider-jobcards\"",
+      "protection": "Cloudflare"
+    },
+    {
+      "id": "stackoverflow",
+      "site": "stackoverflow.com",
+      "url": "https://stackoverflow.com/questions/tagged/python",
+      "marker": "s-post-summary",
+      "protection": "Cloudflare"
+    },
+    {
+      "id": "glassdoor",
+      "site": "glassdoor.com",
+      "url": "https://www.glassdoor.com/Reviews/index.htm",
+      "marker": "id=\"company-name-filter\"",
+      "protection": "Cloudflare"
+    },
+    {
+      "id": "vinted",
+      "site": "vinted.com",
+      "url": "https://www.vinted.com/",
+      "marker": "id=\"search_text\"",
+      "protection": "Cloudflare"
+    },
+    {
+      "id": "deezer",
+      "site": "deezer.com",
+      "url": "https://www.deezer.com/en/",
+      "marker": "id=\"page-homepage-brand\"",
+      "protection": "Akamai"
+    },
+    {
+      "id": "leboncoin",
+      "site": "leboncoin.fr",
+      "url": "https://www.leboncoin.fr/",
+      "marker": "id=\"search-header-extendable-input\"",
+      "protection": "DataDome"
+    },
+    {
+      "id": "hermes",
+      "site": "hermes.com",
+      "url": "https://www.hermes.com/us/en/",
+      "marker": "id=\"HomePageStructuredData\"",
+      "protection": "DataDome"
+    }
+  ]
+}

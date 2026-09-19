@@ -1,0 +1,21 @@
+name: check
+on:
+  push:
+  pull_request:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: the script parses and every published file is valid
+        run: |
+          node --check benchmark.mjs
+          node -e "for (const f of ['corpus.json','corpus-2026-09-16.json']) JSON.parse(require('fs').readFileSync(f,'utf8'))"
+          for d in runs/*/; do node -e "JSON.parse(require('fs').readFileSync('$d/records.json','utf8')); JSON.parse(require('fs').readFileSync('$d/summary.json','utf8'))"; test -s "$d/results.csv"; done
+      - name: a run rebuilds its own CSV and summary from its records without sending anything
+        run: |
+          node benchmark.mjs --from-records runs/2026-09-17/records.json --corpus corpus.json --out /tmp/rebuild --engines single,proxy,premium,browser,auto
+          ls /tmp/rebuild
