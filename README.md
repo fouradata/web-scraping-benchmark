@@ -77,5 +77,5 @@ as long as you credit FourA and link to https://foura.ai/benchmarks. See [DATA-L
 
 ## Cite
 
-FourA, "Web scraping API benchmark on protected public sites", run of 2026-09-17,
+FourA, "Web scraping API benchmark on protected public sites", run of 2026-10-01,
 https://foura.ai/benchmarks.
