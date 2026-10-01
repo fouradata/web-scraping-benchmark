@@ -6,42 +6,42 @@
  "engines": {
   "single": {
    "runs": 66,
-   "content": 40,
-   "challenge": 20,
-   "blocked": 6,
+   "content": 41,
+   "challenge": 18,
+   "blocked": 7,
    "error": 0,
-   "medianMs": 520,
+   "medianMs": 629,
    "creditsPerContent": 2,
    "premiumServed": 0
   },
   "proxy": {
    "runs": 66,
-   "content": 42,
-   "challenge": 23,
+   "content": 44,
+   "challenge": 19,
    "blocked": 1,
-   "error": 0,
-   "medianMs": 868,
+   "error": 2,
+   "medianMs": 975,
    "creditsPerContent": 4,
    "premiumServed": 0
   },
   "premium": {
    "runs": 66,
-   "content": 46,
+   "content": 45,
    "challenge": 20,
-   "blocked": 0,
+   "blocked": 1,
    "error": 0,
-   "medianMs": 516,
+   "medianMs": 976,
    "creditsPerContent": 4,
-   "premiumServed": 1
+   "premiumServed": 3
   },
   "browser": {
    "runs": 66,
-   "content": 54,
-   "challenge": 6,
-   "blocked": 3,
+   "content": 59,
+   "challenge": 0,
+   "blocked": 4,
    "error": 3,
-   "medianMs": 1242,
-   "creditsPerContent": 6.9,
+   "medianMs": 1634,
+   "creditsPerContent": 6.8,
    "premiumServed": 0
   },
   "auto": {
@@ -50,8 +50,8 @@
    "challenge": 0,
    "blocked": 5,
    "error": 0,
-   "medianMs": 751,
-   "creditsPerContent": 6,
+   "medianMs": 937,
+   "creditsPerContent": 3.5,
    "premiumServed": 0
   }
  },
@@ -66,35 +66,35 @@
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 356
+     "medianMs": 364
     },
     "proxy": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 393
+     "medianMs": 328
     },
     "premium": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 346
+     "medianMs": 396
     },
     "browser": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 1367
+     "medianMs": 1767
     },
     "auto": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 355
+     "medianMs": 310
     }
    }
   },
@@ -108,35 +108,35 @@
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 154
+     "medianMs": 161
     },
     "proxy": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 192
+     "medianMs": 193
     },
     "premium": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 144
+     "medianMs": 186
     },
     "browser": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 1165
+     "medianMs": 1095
     },
     "auto": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 197
+     "medianMs": 5221
     }
    }
   },
@@ -171,14 +171,14 @@
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 4016
+     "medianMs": 8945
     },
     "auto": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 3526
+     "medianMs": 591
     }
    }
   },
@@ -192,35 +192,35 @@
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 509
+     "medianMs": 599
     },
     "proxy": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 483
+     "medianMs": 551
     },
     "premium": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 480
+     "medianMs": 485
     },
     "browser": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 1155
+     "medianMs": 1107
     },
     "auto": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 544
+     "medianMs": 529
     }
    }
   },
@@ -234,35 +234,35 @@
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 852
+     "medianMs": 930
     },
     "proxy": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 5857
+     "medianMs": 980
     },
     "premium": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 991
+     "medianMs": 1060
     },
     "browser": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 1446
+     "medianMs": 1592
     },
     "auto": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 1993
+     "medianMs": 498
     }
    }
   },
@@ -276,35 +276,35 @@
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 1105
+     "medianMs": 1184
     },
     "proxy": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 961
+     "medianMs": 870
     },
     "premium": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 486
+     "medianMs": 903
     },
     "browser": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 1239
+     "medianMs": 1195
     },
     "auto": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 652
+     "medianMs": 582
     }
    }
   },
@@ -324,29 +324,29 @@
      "verdict": "challenge",
      "content": 0,
      "runs": 3,
-     "stable": true,
+     "stable": false,
      "medianMs": null
     },
     "premium": {
-     "verdict": "content",
-     "content": 2,
+     "verdict": "challenge",
+     "content": 1,
      "runs": 3,
      "stable": false,
-     "medianMs": 315
+     "medianMs": 1405
     },
     "browser": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 783
+     "medianMs": 935
     },
     "auto": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 247
+     "medianMs": 537
     }
    }
   },
@@ -357,38 +357,38 @@
    "cells": {
     "single": {
      "verdict": "content",
-     "content": 3,
+     "content": 2,
      "runs": 3,
-     "stable": true,
-     "medianMs": 160
+     "stable": false,
+     "medianMs": 182
     },
     "proxy": {
      "verdict": "content",
-     "content": 3,
+     "content": 2,
      "runs": 3,
-     "stable": true,
-     "medianMs": 227
+     "stable": false,
+     "medianMs": 297
     },
     "premium": {
      "verdict": "content",
-     "content": 3,
+     "content": 2,
      "runs": 3,
-     "stable": true,
-     "medianMs": 198
+     "stable": false,
+     "medianMs": 348
     },
     "browser": {
      "verdict": "content",
-     "content": 3,
+     "content": 2,
      "runs": 3,
-     "stable": true,
-     "medianMs": 758
+     "stable": false,
+     "medianMs": 1495
     },
     "auto": {
      "verdict": "content",
-     "content": 3,
+     "content": 2,
      "runs": 3,
-     "stable": true,
-     "medianMs": 206
+     "stable": false,
+     "medianMs": 407
     }
    }
   },
@@ -444,35 +444,35 @@
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 1784
+     "medianMs": 1667
     },
     "proxy": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 1685
+     "medianMs": 1911
     },
     "premium": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 1633
+     "medianMs": 1844
     },
     "browser": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 829
+     "medianMs": 810
     },
     "auto": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 365
+     "medianMs": 385
     }
    }
   },
@@ -486,35 +486,35 @@
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 901
+     "medianMs": 1008
     },
     "proxy": {
      "verdict": "content",
-     "content": 3,
+     "content": 2,
      "runs": 3,
-     "stable": true,
-     "medianMs": 893
+     "stable": false,
+     "medianMs": 1117
     },
     "premium": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 1144
+     "medianMs": 5976
     },
     "browser": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 1695
+     "medianMs": 2050
     },
     "auto": {
      "verdict": "content",
-     "content": 3,
+     "content": 2,
      "runs": 3,
-     "stable": true,
-     "medianMs": 1074
+     "stable": false,
+     "medianMs": 11146
     }
    }
   },
@@ -524,18 +524,18 @@
    "protection": "own",
    "cells": {
     "single": {
-     "verdict": "challenge",
-     "content": 1,
+     "verdict": "content",
+     "content": 3,
      "runs": 3,
-     "stable": false,
-     "medianMs": 899
+     "stable": true,
+     "medianMs": 1139
     },
     "proxy": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 2313
+     "medianMs": 1921
     },
     "premium": {
      "verdict": "content",
@@ -545,18 +545,18 @@
      "medianMs": 1914
     },
     "browser": {
-     "verdict": "challenge",
-     "content": 0,
+     "verdict": "content",
+     "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": null
+     "medianMs": 3170
     },
     "auto": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 2132
+     "medianMs": 1297
     }
    }
   },
@@ -574,31 +574,31 @@
     },
     "proxy": {
      "verdict": "challenge",
-     "content": 0,
+     "content": 1,
      "runs": 3,
-     "stable": true,
-     "medianMs": null
+     "stable": false,
+     "medianMs": 3183
     },
     "premium": {
      "verdict": "challenge",
-     "content": 0,
+     "content": 1,
      "runs": 3,
-     "stable": true,
-     "medianMs": null
+     "stable": false,
+     "medianMs": 1877
     },
     "browser": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 1423
+     "medianMs": 2106
     },
     "auto": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 3268
+     "medianMs": 879
     }
    }
   },
@@ -612,35 +612,35 @@
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 530
+     "medianMs": 645
     },
     "proxy": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 499
+     "medianMs": 732
     },
     "premium": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 543
+     "medianMs": 679
     },
     "browser": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 1122
+     "medianMs": 1525
     },
     "auto": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 601
+     "medianMs": 1245
     }
    }
   },
@@ -660,7 +660,7 @@
      "verdict": "challenge",
      "content": 0,
      "runs": 3,
-     "stable": false,
+     "stable": true,
      "medianMs": null
     },
     "premium": {
@@ -671,18 +671,18 @@
      "medianMs": null
     },
     "browser": {
-     "verdict": "challenge",
-     "content": 0,
+     "verdict": "content",
+     "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": null
+     "medianMs": 2265
     },
     "auto": {
-     "verdict": "blocked",
-     "content": 1,
+     "verdict": "content",
+     "content": 3,
      "runs": 3,
-     "stable": false,
-     "medianMs": 26746
+     "stable": true,
+     "medianMs": 4705
     }
    }
   },
@@ -699,32 +699,32 @@
      "medianMs": null
     },
     "proxy": {
-     "verdict": "challenge",
-     "content": 1,
+     "verdict": "content",
+     "content": 3,
      "runs": 3,
-     "stable": false,
-     "medianMs": 2446
+     "stable": true,
+     "medianMs": 2113
     },
     "premium": {
      "verdict": "content",
      "content": 2,
      "runs": 3,
      "stable": false,
-     "medianMs": 4070
+     "medianMs": 1875
     },
     "browser": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 5608
+     "medianMs": 5929
     },
     "auto": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 1986
+     "medianMs": 2071
     }
    }
   },
@@ -759,14 +759,14 @@
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 4910
+     "medianMs": 9892
     },
     "auto": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 418
+     "medianMs": 716
     }
    }
   },
@@ -808,7 +808,7 @@
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 2255
+     "medianMs": 2467
     }
    }
   },
@@ -822,35 +822,35 @@
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 684
+     "medianMs": 928
     },
     "proxy": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 873
+     "medianMs": 924
     },
     "premium": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 830
+     "medianMs": 1115
     },
     "browser": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 2517
+     "medianMs": 2756
     },
     "auto": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 751
+     "medianMs": 1058
     }
    }
   },
@@ -864,35 +864,35 @@
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 280
+     "medianMs": 346
     },
     "proxy": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 4859
+     "medianMs": 1264
     },
     "premium": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 3372
+     "medianMs": 475
     },
     "browser": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 988
+     "medianMs": 899
     },
     "auto": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 7437
+     "medianMs": 1109
     }
    }
   },
@@ -906,35 +906,35 @@
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 257
+     "medianMs": 299
     },
     "proxy": {
      "verdict": "content",
-     "content": 2,
+     "content": 3,
      "runs": 3,
-     "stable": false,
-     "medianMs": 504
+     "stable": true,
+     "medianMs": 1851
     },
     "premium": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 752
+     "medianMs": 1402
     },
     "browser": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 879
+     "medianMs": 1513
     },
     "auto": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 27485
+     "medianMs": 624
     }
    }
   },
@@ -948,35 +948,35 @@
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 233
+     "medianMs": 285
     },
     "proxy": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 320
+     "medianMs": 356
     },
     "premium": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 324
+     "medianMs": 397
     },
     "browser": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 975
+     "medianMs": 1008
     },
     "auto": {
      "verdict": "content",
      "content": 3,
      "runs": 3,
      "stable": true,
-     "medianMs": 321
+     "medianMs": 416
     }
    }
   }
