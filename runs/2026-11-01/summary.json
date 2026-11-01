@@ -1,0 +1,984 @@
+{
+ "day": "2026-11-01",
+ "corpus": "2026-09-17",
+ "sweeps": 3,
+ "pages": 22,
+ "engines": {
+  "single": {
+   "runs": 66,
+   "content": 42,
+   "challenge": 18,
+   "blocked": 6,
+   "error": 0,
+   "medianMs": 467,
+   "creditsPerContent": 2,
+   "premiumServed": 0
+  },
+  "proxy": {
+   "runs": 66,
+   "content": 47,
+   "challenge": 18,
+   "blocked": 1,
+   "error": 0,
+   "medianMs": 682,
+   "creditsPerContent": 4,
+   "premiumServed": 0
+  },
+  "premium": {
+   "runs": 66,
+   "content": 49,
+   "challenge": 17,
+   "blocked": 0,
+   "error": 0,
+   "medianMs": 569,
+   "creditsPerContent": 4,
+   "premiumServed": 1
+  },
+  "browser": {
+   "runs": 66,
+   "content": 60,
+   "challenge": 0,
+   "blocked": 3,
+   "error": 3,
+   "medianMs": 1289,
+   "creditsPerContent": 6.8,
+   "premiumServed": 0
+  },
+  "auto": {
+   "runs": 66,
+   "content": 63,
+   "challenge": 0,
+   "blocked": 3,
+   "error": 0,
+   "medianMs": 1451,
+   "creditsPerContent": 10,
+   "premiumServed": 0
+  }
+ },
+ "byPage": [
+  {
+   "id": "nowsecure",
+   "site": "nowsecure.nl",
+   "protection": "Cloudflare",
+   "cells": {
+    "single": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 314
+    },
+    "proxy": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 257
+    },
+    "premium": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 302
+    },
+    "browser": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 1004
+    },
+    "auto": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 329
+    }
+   }
+  },
+  {
+   "id": "crunchbase",
+   "site": "crunchbase.com",
+   "protection": "Cloudflare",
+   "cells": {
+    "single": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 136
+    },
+    "proxy": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 129
+    },
+    "premium": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 126
+    },
+    "browser": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 1099
+    },
+    "auto": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 147
+    }
+   }
+  },
+  {
+   "id": "canadianinsider",
+   "site": "canadianinsider.com",
+   "protection": "Cloudflare",
+   "cells": {
+    "single": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 563
+    },
+    "proxy": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 600
+    },
+    "premium": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 600
+    },
+    "browser": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 2115
+    },
+    "auto": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 616
+    }
+   }
+  },
+  {
+   "id": "ceo-ca",
+   "site": "ceo.ca",
+   "protection": null,
+   "cells": {
+    "single": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 482
+    },
+    "proxy": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 598
+    },
+    "premium": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 520
+    },
+    "browser": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 1039
+    },
+    "auto": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 618
+    }
+   }
+  },
+  {
+   "id": "stockwatch",
+   "site": "stockwatch.com",
+   "protection": null,
+   "cells": {
+    "single": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 698
+    },
+    "proxy": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 887
+    },
+    "premium": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 755
+    },
+    "browser": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 1271
+    },
+    "auto": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 1643
+    }
+   }
+  },
+  {
+   "id": "newsfilecorp",
+   "site": "newsfilecorp.com",
+   "protection": null,
+   "cells": {
+    "single": {
+     "verdict": "challenge",
+     "content": 0,
+     "runs": 3,
+     "stable": true,
+     "medianMs": null
+    },
+    "proxy": {
+     "verdict": "challenge",
+     "content": 0,
+     "runs": 3,
+     "stable": true,
+     "medianMs": null
+    },
+    "premium": {
+     "verdict": "challenge",
+     "content": 0,
+     "runs": 3,
+     "stable": true,
+     "medianMs": null
+    },
+    "browser": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 3276
+    },
+    "auto": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 20218
+    }
+   }
+  },
+  {
+   "id": "medium",
+   "site": "medium.com",
+   "protection": "Cloudflare",
+   "cells": {
+    "single": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 142
+    },
+    "proxy": {
+     "verdict": "content",
+     "content": 2,
+     "runs": 3,
+     "stable": false,
+     "medianMs": 567
+    },
+    "premium": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 147
+    },
+    "browser": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 656
+    },
+    "auto": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 191
+    }
+   }
+  },
+  {
+   "id": "devto",
+   "site": "dev.to",
+   "protection": null,
+   "cells": {
+    "single": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 97
+    },
+    "proxy": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 435
+    },
+    "premium": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 133
+    },
+    "browser": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 671
+    },
+    "auto": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 160
+    }
+   }
+  },
+  {
+   "id": "reddit",
+   "site": "reddit.com",
+   "protection": "own",
+   "cells": {
+    "single": {
+     "verdict": "blocked",
+     "content": 0,
+     "runs": 3,
+     "stable": true,
+     "medianMs": null
+    },
+    "proxy": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 1722
+    },
+    "premium": {
+     "verdict": "content",
+     "content": 2,
+     "runs": 3,
+     "stable": false,
+     "medianMs": 1399
+    },
+    "browser": {
+     "verdict": "blocked",
+     "content": 0,
+     "runs": 3,
+     "stable": true,
+     "medianMs": null
+    },
+    "auto": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 1528
+    }
+   }
+  },
+  {
+   "id": "github-explore",
+   "site": "github.com",
+   "protection": null,
+   "cells": {
+    "single": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 1478
+    },
+    "proxy": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 1648
+    },
+    "premium": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 216
+    },
+    "browser": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 725
+    },
+    "auto": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 1946
+    }
+   }
+  },
+  {
+   "id": "linkedin-jobs",
+   "site": "linkedin.com",
+   "protection": "Cloudflare",
+   "cells": {
+    "single": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 862
+    },
+    "proxy": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 970
+    },
+    "premium": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 846
+    },
+    "browser": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 1484
+    },
+    "auto": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 1010
+    }
+   }
+  },
+  {
+   "id": "amazon-product",
+   "site": "amazon.com",
+   "protection": "own",
+   "cells": {
+    "single": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 1813
+    },
+    "proxy": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 2272
+    },
+    "premium": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 602
+    },
+    "browser": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 2550
+    },
+    "auto": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 2168
+    }
+   }
+  },
+  {
+   "id": "google-search",
+   "site": "google.com",
+   "protection": "own",
+   "cells": {
+    "single": {
+     "verdict": "blocked",
+     "content": 0,
+     "runs": 3,
+     "stable": true,
+     "medianMs": null
+    },
+    "proxy": {
+     "verdict": "challenge",
+     "content": 1,
+     "runs": 3,
+     "stable": false,
+     "medianMs": 589
+    },
+    "premium": {
+     "verdict": "content",
+     "content": 2,
+     "runs": 3,
+     "stable": false,
+     "medianMs": 3602
+    },
+    "browser": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 1971
+    },
+    "auto": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 7107
+    }
+   }
+  },
+  {
+   "id": "tiktok-user",
+   "site": "tiktok.com",
+   "protection": null,
+   "cells": {
+    "single": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 534
+    },
+    "proxy": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 986
+    },
+    "premium": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 551
+    },
+    "browser": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 1287
+    },
+    "auto": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 2086
+    }
+   }
+  },
+  {
+   "id": "booking-search",
+   "site": "booking.com",
+   "protection": "AWS WAF",
+   "cells": {
+    "single": {
+     "verdict": "challenge",
+     "content": 0,
+     "runs": 3,
+     "stable": true,
+     "medianMs": null
+    },
+    "proxy": {
+     "verdict": "challenge",
+     "content": 0,
+     "runs": 3,
+     "stable": true,
+     "medianMs": null
+    },
+    "premium": {
+     "verdict": "challenge",
+     "content": 0,
+     "runs": 3,
+     "stable": true,
+     "medianMs": null
+    },
+    "browser": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 2206
+    },
+    "auto": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 1315
+    }
+   }
+  },
+  {
+   "id": "indeed-jobs",
+   "site": "indeed.com",
+   "protection": "Cloudflare",
+   "cells": {
+    "single": {
+     "verdict": "challenge",
+     "content": 0,
+     "runs": 3,
+     "stable": true,
+     "medianMs": null
+    },
+    "proxy": {
+     "verdict": "challenge",
+     "content": 0,
+     "runs": 3,
+     "stable": true,
+     "medianMs": null
+    },
+    "premium": {
+     "verdict": "challenge",
+     "content": 0,
+     "runs": 3,
+     "stable": true,
+     "medianMs": null
+    },
+    "browser": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 10342
+    },
+    "auto": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 1617
+    }
+   }
+  },
+  {
+   "id": "stackoverflow",
+   "site": "stackoverflow.com",
+   "protection": "Cloudflare",
+   "cells": {
+    "single": {
+     "verdict": "challenge",
+     "content": 0,
+     "runs": 3,
+     "stable": true,
+     "medianMs": null
+    },
+    "proxy": {
+     "verdict": "challenge",
+     "content": 0,
+     "runs": 3,
+     "stable": true,
+     "medianMs": null
+    },
+    "premium": {
+     "verdict": "challenge",
+     "content": 0,
+     "runs": 3,
+     "stable": true,
+     "medianMs": null
+    },
+    "browser": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 2179
+    },
+    "auto": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 5540
+    }
+   }
+  },
+  {
+   "id": "glassdoor",
+   "site": "glassdoor.com",
+   "protection": "Cloudflare",
+   "cells": {
+    "single": {
+     "verdict": "challenge",
+     "content": 0,
+     "runs": 3,
+     "stable": true,
+     "medianMs": null
+    },
+    "proxy": {
+     "verdict": "challenge",
+     "content": 0,
+     "runs": 3,
+     "stable": true,
+     "medianMs": null
+    },
+    "premium": {
+     "verdict": "challenge",
+     "content": 0,
+     "runs": 3,
+     "stable": true,
+     "medianMs": null
+    },
+    "browser": {
+     "verdict": "error",
+     "content": 0,
+     "runs": 3,
+     "stable": true,
+     "medianMs": null
+    },
+    "auto": {
+     "verdict": "blocked",
+     "content": 0,
+     "runs": 3,
+     "stable": true,
+     "medianMs": null
+    }
+   }
+  },
+  {
+   "id": "vinted",
+   "site": "vinted.com",
+   "protection": "Cloudflare",
+   "cells": {
+    "single": {
+     "verdict": "challenge",
+     "content": 0,
+     "runs": 3,
+     "stable": true,
+     "medianMs": null
+    },
+    "proxy": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 679
+    },
+    "premium": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 572
+    },
+    "browser": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 4027
+    },
+    "auto": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 2079
+    }
+   }
+  },
+  {
+   "id": "deezer",
+   "site": "deezer.com",
+   "protection": "Akamai",
+   "cells": {
+    "single": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 297
+    },
+    "proxy": {
+     "verdict": "content",
+     "content": 2,
+     "runs": 3,
+     "stable": false,
+     "medianMs": 1957
+    },
+    "premium": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 993
+    },
+    "browser": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 860
+    },
+    "auto": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 3342
+    }
+   }
+  },
+  {
+   "id": "leboncoin",
+   "site": "leboncoin.fr",
+   "protection": "DataDome",
+   "cells": {
+    "single": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 271
+    },
+    "proxy": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 236
+    },
+    "premium": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 689
+    },
+    "browser": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 1049
+    },
+    "auto": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 1836
+    }
+   }
+  },
+  {
+   "id": "hermes",
+   "site": "hermes.com",
+   "protection": "DataDome",
+   "cells": {
+    "single": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 229
+    },
+    "proxy": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 344
+    },
+    "premium": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 296
+    },
+    "browser": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 867
+    },
+    "auto": {
+     "verdict": "content",
+     "content": 3,
+     "runs": 3,
+     "stable": true,
+     "medianMs": 1259
+    }
+   }
+  }
+ ]
+}
